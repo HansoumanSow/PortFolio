@@ -32,8 +32,9 @@ ul{
     margin-left: -54px;
 }
 
-
-
+.text-muted{
+    border: solid aliceblue
+    
 a{
     color: rgb(255, 255, 255);
 }
