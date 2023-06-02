@@ -155,6 +155,7 @@ img{
     ul{
         margin-left: -50px;
         z-index: 1;
+        position : absolute;
     }
     .droite{
         position: fixed;
