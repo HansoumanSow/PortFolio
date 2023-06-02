@@ -159,6 +159,7 @@ img{
     }
     .droite{
         margin-left: -65px;
+        position : absolute
     }
     
     .centre{
