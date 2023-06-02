@@ -1,0 +1,248 @@
+html{
+    overscroll-behavior:contain;
+}
+
+body{
+    margin: 0;
+    min-height: 100%;
+    background-image: url(/clouds-sky-vintage-art-1671619295xcv.jpg);
+    background-size: cover;
+    background-position: left;
+}
+header{
+    text-align: center;
+}
+#un{
+    margin-bottom: 1.5rem;
+}
+ul{
+    position: fixed;
+    list-style-type: none;
+    margin-left: -14px;
+    display: none;
+    text-align: center;
+    z-index: 1;
+}
+
+.bdd{
+    margin-left: -52px;
+}
+
+.sys{
+    margin-left: -54px;
+}
+
+
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+ul li{
+    background-color: cornflowerblue;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+
+a:hover{
+    color: yellow;
+}
+
+.centre{
+    margin-left: -15px;
+}
+
+.droite{
+    position: fixed;
+    
+}
+
+
+section:hover ul{
+    display: block;
+}
+
+
+
+#droite2{
+    margin-left: 45px;
+}
+
+.bas_droite{
+    margin-left: -88px;
+}
+
+img{
+    height: 200px;
+    margin-left: 20%;
+    margin-top: 40%;
+    border-radius: 40%;
+}
+
+.change{
+    height: 2%; 
+    background-color: royalblue;
+    color: rgb(230, 226, 18);
+}
+
+
+#partieGauche{
+    margin-top: 10%; margin-bottom: 45px;
+}
+#Base_de_Données{
+    margin-bottom: 75%; 
+    text-align: center
+}
+#Système{
+    text-align: center;
+}
+#PartieHaute{
+    text-align: center;
+
+}
+#PartieDroite{
+    text-align: center;
+}
+#algo{
+    margin-left: 30%;
+}
+#Communication{
+    margin-top: 33.5%;
+    margin-bottom: 75%; 
+    text-align: center;
+}
+
+#Gestion{
+    height: 5px;
+    text-align: center;
+    
+}
+#partieBasse{
+    margin-bottom: 75px;
+    height: 20%;
+}
+
+#presentation{
+    text-align: center
+}
+#Web{
+    text-align: center;
+}
+
+
+.btn:hover{
+    color: yellow;
+}
+
+#gest{
+    text-align: center;
+    
+}
+#Contacts{
+    margin-bottom: 45px;
+}
+
+.bas_gauche{
+    margin-left: 15px;
+}
+
+
+@media screen and (max-width:576px) {
+
+
+    
+    ul{
+        margin-left: -50px;
+        z-index: 1;
+    }
+    .droite{
+        position: fixed;
+        margin-left: -65px;
+    }
+    
+    .centre{
+        margin-left: -90px;
+    }
+
+    #droite1{
+        margin-left: -59px;
+    }
+
+    #droite2{
+        margin-left: -80px;
+    }
+
+    .bas_droite{
+        margin-left: -60px;
+    }
+    .bdd{
+        margin-left: -42px;
+    }
+
+    img {
+        height: 175px;
+        margin-top: 60px;
+        margin-left: -18px;   
+    } 
+    #partieDroite{
+        margin-top: 20px;
+
+    }
+    #gest{
+            margin-top: 53px;
+            text-align: center;
+            margin-left: -26px;
+    }
+    #algo{
+        margin-left: -10px;
+        margin-bottom: 15px;
+    }
+
+    #Base_de_Données{
+        margin-top: 25%;
+        margin-left: -10px;
+    }
+
+    #Communication{
+        margin-top: 70%;
+        margin-left: -35px;
+    }
+    
+    #Gestion{
+        margin-top: 166px;
+        margin-left: -20px;
+    }
+    
+    #Web{
+        margin-top: 50px;
+    }
+
+    #pres{
+        margin-top: 50px;
+    }
+
+    #Système{
+        margin-top: 200px;
+    }
+
+    #pres{
+        margin-left: -90px;
+    }
+    #site{
+        margin-left: 50px;
+    }
+
+    .change{
+        margin-bottom: 50px;
+    }
+
+    #Contacts{
+        margin-bottom : 40px;
+    }
+    .bas_gauche{
+        margin-left: -100px;
+    }
+    
+
+}
